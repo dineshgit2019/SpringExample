@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo;
+package demo;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.howtodoinjava.demo.model.EmployeeEntity;
-import com.howtodoinjava.demo.repository.EmployeeRepository;
+import demo.model.EmployeeEntity;
+import demo.repository.EmployeeRepository;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest
